@@ -1,0 +1,42 @@
+/* added to change bootstrap size settings*/
+.slider-image {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  height: 500px;
+}
+
+.text {
+  color: grey;
+  /*text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;*/
+  text-shadow: darkgreen 0px 0px 25px;
+    -webkit-font-smoothing: antialiased;
+  font-size: 60px;
+  /*padding: 16px 12px;*/
+  position: absolute;
+  bottom: 35%;
+  width: 100%;
+  text-align: center;
+}
+
+.footer {
+  /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgray;
+  
+}
+
+.mycolor{
+  background-color: grey;
+}
+
+.opaque{
+  opacity: 0.5;
+}
+
+.opaque:hover{
+  opacity: 1;
+}
