@@ -7,12 +7,15 @@
 }
 
 .text {
-  color: grey;
-  /*text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
-             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;*/
-  text-shadow: darkgreen 0px 0px 25px;
-    -webkit-font-smoothing: antialiased;
+  color: rgb(90, 146, 137); /*rgb(90, 146, 137);*/
+  text-shadow: white 0px 0px 40px, white 0px 0px 40px, white 0px 0px 40px,
+    white 0px 0px 40px, white 0px 0px 40px, white 0px 0px 40px;
+  /*text-shadow: black 0px 0px 30px;*/
+  -webkit-font-smoothing: antialiased;
   font-size: 60px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
   /*padding: 16px 12px;*/
   position: absolute;
   bottom: 35%;
@@ -22,21 +25,39 @@
 
 .footer {
   /*position: fixed;*/
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: darkgray;
-  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkgray;
 }
 
-.mycolor{
+.mycontainer {
   background-color: grey;
+  position: relative;
+  padding: 20px;
 }
 
-.opaque{
+.ver_adjustment {
+  position: absolute;
+  top: 50%; /*can also use padding or display:flex*/
+  /*width: 100%;*/
+}
+
+.opaque {
   opacity: 0.5;
 }
 
-.opaque:hover{
+.opaque:hover {
   opacity: 1;
+}
+
+.hrz_adjustment {
+  display: flex;
+  justify-content: space-between;
+  /*object-position: center;*/
+  /*margin: 50px;*/
+}
+
+.mycarousel {
+  position: absolute !important;
 }
