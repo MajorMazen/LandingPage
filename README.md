@@ -1,1 +1,1 @@
-# [News Angles](https://MajorMazen.github.io/LandingPage)
+# [News Angles](http://MajorMazen.github.io/LandingPage)
